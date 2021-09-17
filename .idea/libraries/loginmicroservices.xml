@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="loginmicroservices">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/BackEnd/loginmicroservices" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/BackEnd/loginmicroservices/.mvn/wrapper" />
+      <root url="file://$PROJECT_DIR$/BackEnd/loginmicroservices/src/main/java" />
+      <root url="file://$PROJECT_DIR$/BackEnd/loginmicroservices/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

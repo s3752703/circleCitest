@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="paymentmicroservices" />
+        <module name="book_services" />
+        <module name="loginmicroservices" />
+        <module name="ordermicroservices" />
+        <module name="marketplacemicroservices" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book_services" target="11" />
+      <module name="booklistingmicroservices" target="11" />
+      <module name="bookmicroservices" target="11" />
+      <module name="bookreviewmicroservices" target="11" />
+      <module name="BookViewingmicroservices" target="11" />
+      <module name="listingmicroservice" target="11" />
+      <module name="listingmicroservices" target="11" />
+      <module name="loginmicroservices" target="1.8" />
+      <module name="major_book_services" target="11" />
+      <module name="marketplacemicroservices" target="11" />
+      <module name="ordermicroservices" target="11" />
+      <module name="paymentmicroservices" target="11" />
+      <module name="registeringmicroservices" target="11" />
+      <module name="sharingmicroservices" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookViewingmicroservices" options="-parameters" />
+      <module name="book_services" options="-parameters" />
+      <module name="booklistingmicroservices" options="-parameters" />
+      <module name="bookmicroservices" options="-parameters" />
+      <module name="bookreviewmicroservices" options="-parameters" />
+      <module name="listingmicroservice" options="-parameters" />
+      <module name="listingmicroservices" options="-parameters" />
+      <module name="loginmicroservices" options="-parameters" />
+      <module name="major_book_services" options="-parameters" />
+      <module name="marketplacemicroservices" options="-parameters" />
+      <module name="ordermicroservices" options="-parameters" />
+      <module name="paymentmicroservices" options="-parameters" />
+      <module name="registeringmicroservices" options="-parameters" />
+      <module name="sharingmicroservices" options="-parameters" />
+    </option>
+  </component>
+</project>
